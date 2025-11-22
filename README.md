@@ -5,7 +5,7 @@
 ```sh
 cookiecutter gh:deti/py-template && \
   cd $(ls -t | head -1) && \
-  git init && \
+  git init -b master && \
   git add . && \
   git commit -m "Initial commit from cookiecutter" && \
   make init
