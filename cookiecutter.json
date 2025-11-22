@@ -1,0 +1,11 @@
+{
+  "full_name": "Denis Timofeev",
+  "email": "detijazzz@gmail.com",
+  "github_username": "deti",
+  "project_name": "Python Project",
+  "github_project": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
+  "python_version": "3.14",
+  "py_package": "{{ cookiecutter.github_project.replace('-', '_') }}",
+  "project_description": "Python project template based on uv, make, pydantic_settings, pytest, ruff, and.",
+  "version": "0.1.0"
+}
