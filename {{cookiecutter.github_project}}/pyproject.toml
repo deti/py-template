@@ -68,6 +68,7 @@ select = [
 ignore = [
     "PLR0913", # Too many arguments
     "PLR2004", # Magic value used in comparison
+    "N999", # Hyphen in GitHub repo name
 ]
 fixable = ["ALL"]
 unfixable = []

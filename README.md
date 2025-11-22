@@ -3,7 +3,7 @@
 ## TL;DR
 
 ```sh
-cookiecutter gh:deti/py-project && \
+cookiecutter gh:deti/py-template && \
   cd $(ls -t | head -1) && \
   git init && \
   git add . && \
